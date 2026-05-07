@@ -13,11 +13,6 @@ export const Footer = () => {
     { name: "Terms of Service", href: "#" },
     { name: "Skill-Based Competition Policy", href: "#" },
   ];
-  const socials = [
-    { name: "Twitter / X", href: "https://twitter.com/krankinc" },
-    { name: "Instagram", href: "https://instagram.com/krankinc" },
-    { name: "LinkedIn", href: "https://linkedin.com/company/krankinc" },
-  ];
 
   return (
     <div className="relative">
@@ -41,7 +36,7 @@ export const Footer = () => {
               Skill-based competition · Not gambling
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-10 items-start mt-10 md:mt-0">
+          <div className="grid grid-cols-2 gap-10 items-start mt-10 md:mt-0">
             <div className="flex justify-center space-y-4 flex-col mt-4">
               {links.map((link) => (
                 <Link
@@ -55,17 +50,6 @@ export const Footer = () => {
             </div>
             <div className="flex justify-center space-y-4 flex-col mt-4">
               {legal.map((link) => (
-                <Link
-                  key={link.name}
-                  className="transition-colors hover:text-black text-muted dark:text-muted-dark dark:hover:text-neutral-400 text-xs sm:text-sm"
-                  href={link.href}
-                >
-                  {link.name}
-                </Link>
-              ))}
-            </div>
-            <div className="flex justify-center space-y-4 flex-col mt-4">
-              {socials.map((link) => (
                 <Link
                   key={link.name}
                   className="transition-colors hover:text-black text-muted dark:text-muted-dark dark:hover:text-neutral-400 text-xs sm:text-sm"
