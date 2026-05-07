@@ -6,11 +6,20 @@ import { cn } from "@/lib/utils";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Everything AI",
+  title: "Krank — Compete. Perform. Win Real Money.",
   description:
-    "Everything AI is a platform that provides a wide range of AI tools and services to help you stay on top of your business. Generate images, text and everything else that you need to get your business off the ground.",
+    "Pay to enter. Your Apple Watch, Oura Ring, Garmin, or any device connected to Apple Health tracks your performance automatically. Winners split the prize pool. No logging, no disputes — just results.",
   openGraph: {
-    images: ["https://ai-saas-template-aceternity.vercel.app/banner.png"],
+    title: "Krank — Compete. Perform. Win Real Money.",
+    description:
+      "Skill-based fitness competitions verified by Apple Health. Pay to enter, perform, and win real money. No randomness. Pure results.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Krank — Compete. Perform. Win Real Money.",
+    description:
+      "Skill-based fitness competitions verified by Apple Health. Pay to enter, perform, and win real money.",
   },
 };
 
