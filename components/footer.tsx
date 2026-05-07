@@ -5,7 +5,6 @@ import { Logo } from "./Logo";
 export const Footer = () => {
   const links = [
     { name: "How it Works", href: "/#features" },
-    { name: "Pricing", href: "/pricing" },
     { name: "Join Waitlist", href: "/contact" },
   ];
   const legal = [
