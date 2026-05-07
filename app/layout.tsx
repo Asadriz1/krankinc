@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     title: "Krank — Compete. Perform. Win Real Money.",
     description:
       "Skill-based fitness competitions verified by Apple Health. Pay to enter, perform, and win real money. No randomness. Pure results.",
-    images: ["/og-image.png"],
     type: "website",
   },
   twitter: {
@@ -21,7 +20,6 @@ export const metadata: Metadata = {
     title: "Krank — Compete. Perform. Win Real Money.",
     description:
       "Skill-based fitness competitions verified by Apple Health. Pay to enter, perform, and win real money.",
-    images: ["/og-image.png"],
   },
 };
 
