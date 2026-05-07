@@ -9,10 +9,6 @@ const navItems = [
     link: "/#features",
   },
   {
-    title: "Pricing",
-    link: "/pricing",
-  },
-  {
     title: "Waitlist",
     link: "/contact",
   },
